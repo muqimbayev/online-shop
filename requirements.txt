@@ -1,0 +1,8 @@
+djangorestframework
+django 
+djangorestframework-simplejwt 
+drf-yasg 
+setuptools
+psycopg2-binary 
+environs 
+

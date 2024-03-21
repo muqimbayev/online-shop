@@ -5,7 +5,7 @@ from datetime import date
 class Users(models.Model):
     nomi = models.CharField(max_length=50)
     telefon_raqami = models.CharField(max_length=15)
-    parol = models.CharField(max_length=30)
+    parol = models.CharField(max_length=255)
 
     def save(self, *args, **kwargs):
         if self.parol:
